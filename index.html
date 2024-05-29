@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator Password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome</h1>
+        <h3>Genrator Password</h3>
+        <hr>
+        <label for="lenghtlabel">Choice a Password lenght:</label><br>
+        <input id="length" type="number" min="8" value="8"><br>
+        
+        
+        <div class="checkbox-container">
+
+            <input id="minscule" name="checkbox" type="checkbox">
+
+            <label class="terms-label" for="minscule">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 200 200" class="checkbox-svg">
+                <mask fill="white" id="path-1-inside-1_476_5-37">
+                  <rect height="200" width="200"></rect>
+                </mask>
+                <rect mask="url(#path-1-inside-1_476_5-37)" stroke-width="40" class="checkbox-box" height="200" width="200"></rect>
+                <path stroke-width="15" d="M52 111.018L76.9867 136L149 64" class="checkbox-tick"></path>
+              </svg>
+              <span class="label-text">Include LowerCase Char</span>
+            </label><br>
+
+
+            <input id="majuscule" name="checkbox" type="checkbox">
+
+
+            <label class="terms-label" for="majuscule">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 200 200" class="checkbox-svg">
+                <mask fill="white" id="path-1-inside-1_476_5-37">
+                  <rect height="200" width="200"></rect>
+                </mask>
+                <rect mask="url(#path-1-inside-1_476_5-37)" stroke-width="40" class="checkbox-box" height="200" width="200"></rect>
+                <path stroke-width="15" d="M52 111.018L76.9867 136L149 64" class="checkbox-tick"></path>
+              </svg>
+              <span class="label-text">Include UpperCase Char </span>
+            </label><br>
+
+
+            <input id="Number" name="checkbox" type="checkbox">
+            <label class="terms-label" for="Number">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 200 200" class="checkbox-svg">
+                <mask fill="white" id="path-1-inside-1_476_5-37">
+                  <rect height="200" width="200"></rect>
+                </mask>
+                <rect mask="url(#path-1-inside-1_476_5-37)" stroke-width="40" class="checkbox-box" height="200" width="200"></rect>
+                <path stroke-width="15" d="M52 111.018L76.9867 136L149 64" class="checkbox-tick"></path>
+              </svg>
+              <span class="label-text">Include Number</span>
+            </label><br>
+
+
+
+            <input id="Symbols" name="checkbox" type="checkbox">
+            <label class="terms-label" for="Symbols">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 200 200" class="checkbox-svg">
+                <mask fill="white" id="path-1-inside-1_476_5-37">
+                  <rect height="200" width="200"></rect>
+                </mask>
+                <rect mask="url(#path-1-inside-1_476_5-37)" stroke-width="40" class="checkbox-box" height="200" width="200"></rect>
+                <path stroke-width="15" d="M52 111.018L76.9867 136L149 64" class="checkbox-tick"></path>
+              </svg>
+              <span class="label-text">Include Symbols</span>
+            </label>
+          </div>
+        <br>
+        
+
+        <div class="but" onclick="generate()">
+            <button class="btn" id="mubutton">
+                <svg height="24" width="24" fill="#FFFFFF" viewBox="0 0 24 24" data-name="Layer 1" id="Layer_1" class="sparkle">
+                    <path d="M10,21.236,6.755,14.745.264,11.5,6.755,8.255,10,1.764l3.245,6.491L19.736,11.5l-6.491,3.245ZM18,21l1.5,3L21,21l3-1.5L21,18l-1.5-3L18,18l-3,1.5ZM19.333,4.667,20.5,7l1.167-2.333L24,3.5,21.667,2.333,20.5,0,19.333,2.333,17,3.5Z"></path>
+                </svg>
+            
+                <span class="text">Generate</span>
+            </button>
+        </div>
+
+        <h4 id="result"></h4>
+        
+        <h3 id="Generated-Password"><span>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

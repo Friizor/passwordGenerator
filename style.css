@@ -1,0 +1,143 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    text-align: center;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    background: #D1D8EC;
+    -webkit-box-shadow: 12px 12px 27px #a5abba, -12px -12px 27px #fdffff;
+    box-shadow: 12px 12px 27px #a5abba, -12px -12px 27px #fdffff;
+    width: 500px;
+    padding: 15px 25px;
+}
+h3{
+    color: rgb(65, 62, 62);
+}
+label{
+    font-weight: bold;
+    margin: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+input[type=number]{
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+
+#Generated-Password{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 28%;
+    display: none;
+}
+#Generated-Password img{
+    width: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+
+.checkbox-container{
+  display: inline-block;
+}
+
+input[type="checkbox"] {
+    display: none;
+  }
+  
+.terms-label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+.terms-label .label-text {
+    margin-left: 10px;
+  }
+  
+.checkbox-svg {
+    width: 30px;
+    height: 30px;
+  }
+  
+.checkbox-box {
+    fill: rgba(117, 77, 77, 0.425);
+    stroke: #400273;
+    stroke-dasharray: 800;
+    stroke-dashoffset: 800;
+    transition: stroke-dashoffset 0.6s ease-in;
+  }
+
+  .checkbox-tick {
+    stroke: #4e048a;
+    stroke-dasharray: 172;
+    stroke-dashoffset: 172;
+    transition: stroke-dashoffset 0.6s ease-in;
+  }
+  
+input[type="checkbox"]:checked + .terms-label .checkbox-box,
+input[type="checkbox"]:checked + .terms-label .checkbox-tick {
+    stroke-dashoffset: 0;
+  }
+  
+
+  .but{
+    margin-top: 40px;
+    display: inline-block;
+  }
+
+
+
+  .btn {
+    border: none;
+    width: 15em;
+    height: 5em;
+    border-radius: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background: #1C1A1C;
+    cursor: pointer;
+    transition: all 450ms ease-in-out;
+  }
+  
+  .sparkle {
+    fill: #AAAAAA;
+    transition: all 800ms ease;
+  }
+  
+  .text {
+    font-weight: 600;
+    color: #AAAAAA;
+    font-size: medium;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(0deg,#A47CF3,#683FEA);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+    inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 0px 4px rgba(255, 255, 255, 0.2),
+    0px 0px 180px 0px #9917FF;
+    transform: translateY(-2px);
+  }
+  
+  .btn:hover .text {
+    color: white;
+  }
+  
+  .btn:hover .sparkle {
+    fill: white;
+    transform: scale(1.2);
+  } 

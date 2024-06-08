@@ -16,7 +16,7 @@
 
 <b>Stop password frustration and protect your accounts. Generate a strong password now!</b>
 
-### Installation
+## Installation
 
 1. Clone the repository:
 ```bash

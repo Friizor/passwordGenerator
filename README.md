@@ -15,3 +15,18 @@
 </ul>
 
 <b>Stop password frustration and protect your accounts. Generate a strong password now!</b>
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Friizor/passwordGenerator.git
+   ```
+2. Navigate to the project directory:
+`````bash
+cd passwordGenerator
+`````
+
+## Contributing
+
+Contributions are welcome! Please submit a pull request or open an issue to discuss your ideas.

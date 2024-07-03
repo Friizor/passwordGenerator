@@ -16,6 +16,11 @@
 
 <b>Stop password frustration and protect your accounts. Generate a strong password now!</b>
 
+---
+## Technologies Used
+- Frontend: HTML, CSS
+- Algorithm: JS
+
 ## Installation
 
 1. Clone the repository:
